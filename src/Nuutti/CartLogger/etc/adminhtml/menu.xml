@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Nuutti_CartLogger::nuutti_cartlogger_menu"
+             title="CartLogger Menu" module="Nuutti_CartLogger"
+             sortOrder="10"
+             action="nuutti_cartlogger/index/index"
+             resource="Magento_Backend::content"
+        />
+        <!-- START: new node -->
+        <!-- END:   new node -->
+    </menu>
+</config>

@@ -1,0 +1,8 @@
+<?php
+$viewModel = $block->getData('view_model');
+//echo $viewModel->getCartLog();
+echo 'Sku:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Date: <br><br>';
+foreach ($viewModel->getCartLog() as $item) {
+    echo $item->getSku() . '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' . $item->getDate() . '<br>';
+}
+?>

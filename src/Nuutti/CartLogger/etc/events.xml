@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+    <event name="checkout_cart_product_add_after">
+        <observer name="CheckoutCartProductAddAfter" instance="Nuutti\CartLogger\Observer\CheckoutCartProductAddAfter" />
+    </event>
+    <event name="sales_quote_remove_item">
+        <observer name="SalesQuoteRemoveItem" instance="Nuutti\CartLogger\Observer\SalesQuoteRemoveItem" />
+    </event>
+</config>
+
