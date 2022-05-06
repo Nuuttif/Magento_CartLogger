@@ -1,2 +1,2 @@
 # Magento_CartLogger
-Observer, database and admin page example for reference.
+Observer, Data Model and admin page example for reference.
